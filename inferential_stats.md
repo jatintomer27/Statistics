@@ -16,7 +16,7 @@
   
 - p-values come from tests like the t-test and z-test.
 
-[P-Value](images/p-value.png)
+![P-Value](images/p-value.png)
 
 ### Confidence Interval
 
@@ -32,11 +32,11 @@
 
 - **Use Cases of CI**
 
-[Use Case 1](images/ci_usecase_1.png)
+![Use Case 1](images/ci_usecase_1.png)
 
-[Use Case 2](images/ci_usecase_2.png)
+![Use Case 2](images/ci_usecase_2.png)
 
-[Use Case 3](images/ci_usecase_3.png)
+![Use Case 3](images/ci_usecase_3.png)
 
 ### Significance Level (α) 
 
@@ -72,11 +72,11 @@
 
 #### One-Sample Z-test
 
-[One-Sample Z-test](images/one_sample_z_test.png)
+![One-Sample Z-test](images/one_sample_z_test.png)
 
 #### Two-Sample Z-test ( Difference of Means )
 
-[Two-Sample Z-test](images/two_sample_z_test.png)
+![Two-Sample Z-test](images/two_sample_z_test.png)
 
 #### One-Proportion Z-test
 
@@ -89,12 +89,12 @@
     - Sample size is large enough ==> [ n * p0​ ≥ 5 ], and [ n * (1−p0​) ≥ 5 ]
     - Data is categorical (like Yes/No, Pass/Fail, Win/Loss)
 
-[Formula](images/one_proportion_z_test.png)
+![Formula](images/one_proportion_z_test.png)
 
 - **Example**:
 
-[Example 1](images/one_proportion_z_test_example_1.png)
-[Example 2](images/one_proportion_z_test_example_2.png)
+![Example 1](images/one_proportion_z_test_example_1.png)
+![Example 2](images/one_proportion_z_test_example_2.png)
 
 #### Two-Proportion Z-test
 
@@ -104,20 +104,20 @@
 
 - We are checking whether: p1 ​= p2 ​or p1​ != p2​
 
-[Two Proportion 1](images/two_proportion_z_test_1.png)
-[Two Proportion 2](images/two_proportion_z_test_2.png)
+![Two Proportion 1](images/two_proportion_z_test_1.png)
+![Two Proportion 2](images/two_proportion_z_test_2.png)
 
 - **Example**:
 
-[Example 1](images/two_proportion_z_test_example_1.png)
-[Example 2](images/two_proportion_z_test_example_2.png)
-[Example 3](images/two_proportion_z_test_example_3.png)
+![Example 1](images/two_proportion_z_test_example_1.png)
+![Example 2](images/two_proportion_z_test_example_2.png)
+![Example 3](images/two_proportion_z_test_example_3.png)
 
 ## T - test
 
 - A t-test is a method to check if two groups are really different, or if their difference happened just by luck.
 
-[T-test](images/t-test.png)
+![T-test](images/t-test.png)
 
 ### Types of t-test
 
@@ -125,21 +125,21 @@
 
 - When you compare your sample to a known value.
 
-[One Sample t-test](images/one_sample_t_test.png)
+![One Sample t-test](images/one_sample_t_test.png)
 
 - **Types of One-sample t-test:**
 
-[One Sample T-test Type](images/one_sample_t_test_type.png)
+![One Sample T-test Type](images/one_sample_t_test_type.png)
 
 - **One-sample t-test formula**
 
-- [Formula](images/one_sample_t_test_formula.png)
+- ![Formula](images/one_sample_t_test_formula.png)
 
 #### Independent (Two-sample) t-test
 
 - When you compare two separate groups
 
-[Independent sample test](images/independent_sample_test.png)
+![Independent sample test](images/independent_sample_test.png)
 
 - **Types of Independent (Two-sample) t-test**
 
@@ -152,7 +152,7 @@
 
 - Calculation formula:
 
-[Pooled Variance Formula](images/pooled_variance_t_test.png)
+![Pooled Variance Formula](images/pooled_variance_t_test.png)
     
 ##### Welch’s t-test ( Welch correction )
 
@@ -166,7 +166,7 @@
 
 - Calculation formula:
 
-[Welch Formula](images/welch_formula.png)
+![Welch Formula](images/welch_formula.png)
 
 ##### One-tailed vs Two-tailed versions
 
@@ -185,14 +185,14 @@
 
 - When you compare scores of the same people at two different times.
 
-[Paired t-test](images/paired_t_test.png)
+![Paired t-test](images/paired_t_test.png)
 
 - This test is only differentiable only based of One-tailed vs Two-tailed versions
 
-[Summary](images/paired_t_test_summary.png)
+![Summary](images/paired_t_test_summary.png)
 
 - Formula:
-    - [Formula](images/paired_t_test_formula.png)
+    - ![Formula](images/paired_t_test_formula.png)
     - Now find Critical value from t-table based on DOF and significance level ( alpha )
     - Now compare the Critical value with calculated t-value and make decision according to One-tailed vs Two-tailed versions
 
@@ -201,10 +201,10 @@
 
 #### Which test is used in which problem
 
-[Test Selection](images/test_according_to_problem.png)
+![Test Selection](images/test_according_to_problem.png)
 
 #### How to accept or reject null hypothesis
 
-[Accept/Reject Null Hypothesis](images/accept_reject_h0_1.png)
+![Accept/Reject Null Hypothesis](images/accept_reject_h0_1.png)
 
-[Accept/Reject Null Hypothesis](images/accept_reject_h0_2.png)
+![Accept/Reject Null Hypothesis](images/accept_reject_h0_2.png)
